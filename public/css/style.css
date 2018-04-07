@@ -1,0 +1,176 @@
+@font-face{
+    font-family: Universe;
+    src: url('UniversLTStd-Cn.otf');
+}
+@font-face{
+font-family: UniverseBold;
+src: url('UniversLTStd-Bold.otf');
+}
+@font-face{
+    font-family: UniverseThin;
+    src: url('UniversLTStd-ThinUltraCn.otf');
+}
+body{
+    font-family: Universe;
+}
+.col{
+    padding: 0px !important;
+}
+nav{
+  height: 85px;
+}
+.alert-init{
+  visibility: hidden;
+}
+.show{
+  visibility: visible;
+}
+/*
+plomo: rgb(74, 107, 121)
+rojo: rgb(238, 45,, 94)
+verde: rgb(175, 210, 79)
+celeste: rgb(36, 191, 203)
+naranja: rgb(243, 114, 50)
+azul oscuro: rgb(18, 114, 146)
+*/
+.light-blue-color{
+    color: rgb(36, 191, 203);
+}
+.white-color{
+    color: white;
+}
+.bold-univ{
+    font-family: UniverseBold;
+}
+.grey-clinic{
+    background: rgb(74, 107, 121);
+}
+.light-blue-clinic{
+    background: rgb(36, 191, 203);
+}
+.green-clinic{
+    background: rgb(175, 210, 79);
+}
+.our{
+    border-radius: 85px;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    font-size: 27px;
+}
+.row-content{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.row-background-img{
+    background: url(../images/home3.png) center no-repeat ;
+    height:100vh;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    box-shadow: inset 0 0 2em 2em white;;
+}
+.personal-box{
+    background: url(../images/links1.jpg) center no-repeat ;
+    height:50vh;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.services-box{
+    background: url(../images/links2.jpg) center no-repeat ;
+    height:50vh;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.links
+    a,
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+    color: white;
+}
+.row-img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.row-services{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-green{
+    background: rgb(175, 165, 30);
+}
+.services-background{
+    background:rgb(36, 191, 203);
+}
+.services-box-white{
+    border: 1px solid white;
+    color: white;
+    border-radius: 35px;
+    padding:10px;
+    margin-right:20px;
+    margin-left:20px;
+}
+.services-box-blue{
+    border: 1px solid rgb(36, 191, 203);
+    color: rgb(36, 191, 203);
+    border-radius: 35px;
+    padding: 10px;
+    margin-right:20px;
+    margin-left:20px;
+}
+.footer-box-blue{
+    border: 1px solid rgb(36, 191, 203);
+    color: rgb(36, 191, 203);
+    border-radius: 35px;
+}
+.footer-box-white{
+    border: 1px solid white;
+    color:white;
+    border-radius: 35px;
+}
+.footer-box-background-blue{
+    border: 1px solid rgb(36, 191, 203);
+    background: rgb(36, 191, 203);
+    color: white;
+    border-radius: 35px;
+    padding: 0px;
+    font-size: 15px;
+}
+.footer-box-background-blue-icon{
+    border: 1px solid rgb(36, 191, 203);
+    background: rgb(36, 191, 203);
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+}
+.footer-box-background-white-icon{
+    border: 1px solid white;
+    background: rgb(36, 191, 203);
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+}
+.footer-box-background-white{
+    border: 1px solid white;
+    background: rgb(36, 191, 203);
+    color: white;
+    border-radius: 35px;
+    padding: 0px;
+    font-size: 15px;
+}
+.footer-row{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.services-text{
+    font-size: 20px;
+    margin-left:40px;
+}

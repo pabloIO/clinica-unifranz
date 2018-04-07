@@ -1,0 +1,9 @@
+{
+    "/js/config.js": "/js/config.js",
+    "/css/app.css": "/css/app.css",
+    "/js/reserves.js": "/js/reserves.js",
+    "/js/middleware.js": "/js/middleware.js",
+    "/js/logout.js": "/js/logout.js",
+    "/js/login.js": "/js/login.js",
+    "/js/getFormData.js": "/js/getFormData.js"
+}
